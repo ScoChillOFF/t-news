@@ -1,0 +1,24 @@
+@import "theme.css";
+@import "inputs.css";
+@import "buttons.css";
+@import "auth-dialog.css";
+@import "header.css";
+
+html {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.content {
+    flex: 1 0 auto;
+    display: flex;
+    background-color: #fff;
+}

@@ -1,0 +1,40 @@
+.auth-dialog {
+    margin: auto;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    min-width: 320px;
+    max-width: 414px;
+    padding: 20px 24px 24px;
+    border-radius: 20px;
+    box-shadow: 0 6px 34px rgba(0, 0, 0, 0.12);
+
+    .auth-title {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin-block-end: 20px;
+    }
+
+    .auth-fields {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 20px;
+
+        .field-row {
+            display: flex;
+        }
+    }
+
+    .auth-footer {
+        margin-block-start: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 12px;
+
+        .button {
+            flex: 1 1 40%;
+        }
+    }
+}
