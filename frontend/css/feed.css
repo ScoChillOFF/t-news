@@ -1,0 +1,9 @@
+.feed {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 0 auto;
+    gap: 65px;
+    margin: 65px auto;
+    width: 100%;
+    max-width: 1100px;
+}

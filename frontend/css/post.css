@@ -1,0 +1,40 @@
+.post {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px 24px;
+  border-radius: 20px;
+  box-shadow: 0 6px 34px 0 rgba(0, 0, 0, 0.12);
+
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+
+    .post-avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 50px;
+    }
+
+    .post-author {
+      font-size: 24px;
+    }
+  }
+
+  .post-content {
+    margin-bottom: 24px;
+  }
+
+  .post-footer {
+    display: flex;
+    gap: 12px;
+
+    .button {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      flex-grow: 0;
+    }
+  }
+}
