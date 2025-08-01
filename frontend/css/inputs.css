@@ -43,3 +43,9 @@
     background-color: var(--bg-focus-1);
   }
 }
+
+textarea.text-input {
+  padding: 12px;
+  outline: none;
+  resize: none;
+}

@@ -46,7 +46,7 @@
         <div class="profile-section profile-info-section">
           <div class="profile-info-header">
             <h1 class="profile-name">Луций Анней Сенека</h1>
-            <button class="profile-edit" id="edit-name">
+            <button class="icon-button" id="edit-name">
               <img src="../img/edit.svg" alt="" />
             </button>
           </div>
@@ -59,16 +59,53 @@
               «Нравственных писем к Луцилию», ряда философских трактатов и
               трагедий
             </p>
-            <button class="profile-edit" id="edit-description">
+            <button class="icon-button" id="edit-description">
               <img src="../img/edit.svg" alt="" />
             </button>
           </div>
         </div>
 
         <div class="profile-section profile-actions-section">
-          <button class="profile-subscribe button misc small">Подписаться</button>
+          <button class="profile-subscribe button misc small">
+            Подписаться
+          </button>
         </div>
       </section>
+
+      <form action="" class="create-post-form">
+        <textarea
+          name=""
+          id=""
+          class="text-input"
+          placeholder="Введите свой пост"
+        ></textarea>
+        <input type="submit" value="Отправить" class="button small primary" />
+      </form>
+
+      <div class="feed">
+        <div class="post">
+            <div class="post-header">
+              <img class="post-avatar" src="../img/8dd89fd1f86f22d76904c1465476f0ce42ff9778.jpg" alt="Аватар автора" />
+              <h1 class="post-author">Луций Анней Сенека</h1>
+            </div>
+  
+            <div class="post-content">
+              <p class="post-text">
+                Бывают заблуждения, имеющие видимость истин
+              </p>
+              <button class="icon-button"><img src="../img/delete.svg" alt=""></button>
+            </div>
+  
+            <div class="post-footer">
+              <button class="post-like-button button primary">
+                <img src="../img/Heart.svg" alt="" /><span class="like-count"
+                  >21</span
+                >
+              </button>
+              <button class="post-comment-button button">Комментарии 1</button>
+            </div>
+          </div>
+      </div>
     </section>
   </body>
 </html>

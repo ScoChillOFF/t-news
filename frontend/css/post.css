@@ -15,6 +15,7 @@
       width: 24px;
       height: 24px;
       border-radius: 50px;
+      object-fit: cover;
     }
 
     .post-author {
@@ -23,7 +24,14 @@
   }
 
   .post-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
     margin-bottom: 24px;
+
+    .icon-button {
+      padding-top: 5px;
+    }
   }
 
   .post-footer {
