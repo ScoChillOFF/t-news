@@ -1,14 +1,19 @@
 :root {
 --bg-neutral-1: rgba(36, 74, 127, 0.06);
 --bg-accent-1: rgba(255, 221, 45, 1);
+--bg-accent-2: rgba(66, 139, 249, 1);
 --bg-accent-hover: rgb(251, 223, 78);
+--bg-accent-2-hover: rgb(48, 119, 226);
 --bg-accent-active: rgb(226, 193, 25);
+--bg-accent-2-active: rgb(42, 102, 194);
 --bg-focus-1: rgba(125, 135, 151, 0.06);
 --bg-active-1: rgba(169, 182, 197, 0.06);
 --border-neutral-1: rgb(80, 80, 80);
 --text-primary: rgba(0, 0, 0, 0.8);
+--text-primary-on-dark: rgba(255, 255, 255, 1);
 --text-secondary: rgba(0, 0, 0, 0.54);
 --text-primary-on-accent: rgba(51, 51, 51, 1);
 --text-action: rgba(18, 109, 247, 1);
 --border-normal: rgba(0, 16, 36, 0.12);
+--brand-pro: rgba(175, 242, 24, 1);
 }

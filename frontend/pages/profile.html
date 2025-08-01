@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>T-News</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <div class="left-side-header-content">
+          <img src="../img/t-bank.svg" alt="Логотип Т-Банка" class="logo" />
+          <input
+            type="text"
+            class="text-input medium"
+            placeholder="Поиск по T-News"
+          />
+        </div>
+        <div class="right-side-header-content">
+          <a href="./register.html" class="auth-link">
+            <span class="auth-link-text">Зарегистрироваться</span>
+            <img src="../img/arrow-in-right.svg" alt="Кнопка регистрации" />
+          </a>
+          <a href="./login.html" class="auth-link">
+            <span class="auth-link-text">Войти</span>
+            <img src="../img/arrow-in-right.svg" alt="Кнопка входа" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="content">
+      <section class="profile">
+        <div class="profile-section profile-avatar-section">
+          <img
+            class="profile-avatar"
+            src="../img/8dd89fd1f86f22d76904c1465476f0ce42ff9778.jpg"
+            alt="Фото пользователя"
+          />
+          <button class="profile-edit-photo button small edit">
+            Изменить фото
+          </button>
+        </div>
+
+        <div class="profile-section profile-info-section">
+          <div class="profile-info-header">
+            <h1 class="profile-name">Луций Анней Сенека</h1>
+            <button class="profile-edit" id="edit-name">
+              <img src="../img/edit.svg" alt="" />
+            </button>
+          </div>
+          <div class="profile-description-container">
+            <p class="profile-description">
+              Обо мне: римский философ-стоик, поэт и государственный деятель.
+              Воспитатель Нерона и один из крупнейших представителей стоицизма.
+              Сын Луция (Марка) Аннея Сенеки Старшего (выдающегося ритора и
+              историка) и Гельвии, младший брат Юния Галлиона. Автор
+              «Нравственных писем к Луцилию», ряда философских трактатов и
+              трагедий
+            </p>
+            <button class="profile-edit" id="edit-description">
+              <img src="../img/edit.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div class="profile-section profile-actions-section">
+          <button class="profile-subscribe button misc small">Подписаться</button>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

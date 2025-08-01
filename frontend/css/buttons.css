@@ -27,6 +27,25 @@
     --button-text: var(--text-action);
   }
 
+  &.misc {
+    --button-bg: transparent;
+    border: 1px solid var(--border-normal);
+    --button-text: var(--text-action);
+  }
+
+  &.edit {
+    --button-bg: var(--bg-accent-2);
+    --button-bg-hover: var(--bg-accent-2-hover);
+    --button-bg-active: var(--bg-accent-2-active);
+    --button-text: var(--text-primary-on-dark);
+  }
+
+  &.small {
+    padding: 4px 10px;
+    height: 32px;
+    width: fit-content;
+  }
+
   &:disabled {
     background-color: white;
   }
